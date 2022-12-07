@@ -1,0 +1,235 @@
+:root {
+  --main-color: white;
+  --full-width: 1920px;
+  --background-color-black: #231F20;
+  --white-text-color:#fff;
+  --black-text-color:var(--background-color-black);
+}
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*,body{
+  width: 1920;
+ /* background-color: white;*/
+  /*border: 1px solid black;*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+.content{
+  height: 1015px;
+  background-color: rgba(56, 54, 54, 0.26);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('./assets/redwhitecap.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+ 
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  justify-content: space-between;
+  padding:20px 200px 20px 200px;
+  position: static;
+}
+.landing{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+ 
+  height: 100%;
+
+}
+.button{
+  margin-left: auto;
+  align-content: center;
+  text-align: center;
+  margin:auto;
+  justify-content: center;
+  cursor:pointer;
+}
+.logo{
+  width: 35%;
+  margin-right: 300px;
+  align-items: left;
+  display: flex;
+  cursor: pointer;
+}
+.section2{
+  background-color: white;
+  height: 980px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:auto ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: auto 0;
+  justify-content: space-around;
+  width: 100%;
+
+}
+.left{
+  background:url('./assets/logosection2.png');
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  
+}
+.right{
+  background:url('./assets/retroconsole.png');
+  width: 80%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto 0;
+  
+  align-content: center;
+  justify-content: center;
+ padding:0px 150px 00px 50px;
+}
+p {
+  font-size: 29px;
+}
+.section3{
+  background-color: white;
+  height: 980px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:auto ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: auto 0;
+  justify-content: space-around;
+  width: 100%;
+  background-color:#231F20;
+  
+}
+.textonside{
+  margin: 0px 0px 200px 0px;
+}
+.lefts3{
+  color: white;
+  display: flex;
+  text-align: left;
+  width: 75%;
+  margin:0px -100px 0px 200px;
+
+}
+.rights3{
+  background-image: url('./assets/retropad.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.logosec3{
+  margin-top: -100px;
+  margin-bottom:100px;
+}
+.section4{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:auto ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto 0;
+  justify-content: space-around;
+  width: 100%;
+  background-color:#ffffff;
+  
+}
+.titleImg{
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  margin:50px;
+}
+.card{
+  background-color: #231F20;
+  width: 456px;
+  height:558px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 0px 10px #d6d6d6;
+}
+.whitebg{
+  width: 456px;
+  height: 414px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textcard {
+  color: var(--white-text-color);
+  width: 90%;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: right;
+  align-content: center;
+  text-align: right;
+  margin:20px 20px 20px 20px
+}
+#footer{
+  display: flex;
+  height:100%;
+  padding-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background-color-black);
+  color: var(--white-text-color);
+}
+.imagefooter{
+  margin-top: 50px;
+}
+.textonfooter{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  
+
+}
+.textonfooter ul li {
+  padding:20px;
+}
+.textonfooter ul {
+  margin-bottom: 100px;
+  font-size: 29px;
+}
+
+ul{
+  list-style: none;
+}
