@@ -22,7 +22,7 @@ h1{
   #video
   {
     position: fixed;
-  left: 0 ;
+  left: -49px ;
   right: 0;
   bottom: 0;
   min-width: 150%;
